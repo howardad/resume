@@ -12,6 +12,7 @@
 
 \renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage{microtype}
 
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
@@ -19,7 +20,7 @@
 
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
-\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{3.1cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
@@ -62,15 +63,21 @@
 %\cvitemwithcomment{Language 2}{Skill level}{Comment}
 %\cvitemwithcomment{Language 3}{Skill level}{Comment}
 
-\section{University classes}
+\section{University courses}
 \cvlistdoubleitem{Elementary Linear Algebra}{Programming Data Structures}
 \cvlistdoubleitem{Statistical Methods}{Algorithms \& Data Structures}
 \cvlistdoubleitem{Introduction to Programming}{Computer Organization I}
 
 \section{Massive open online courses (MOOCs)}
-\cvlistdoubleitem{Item 1}{Item 4}
-\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
-\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+\cvlistdoubleitem{Intro to Computer Science \& Programming (MIT/edX)}{Beginning Game Programming with C\# (U. Colo. System/Coursera)}
+\cvlistdoubleitem{Programming Languages (U. Wash./Coursera)}{Functional Programming Principles in Scala (École Polytechnique Fédérale de Lausanne/Coursera)}
+\cvlistdoubleitem{Intro to Systematic Program Design (U. British Columbia/Coursera)}{Programming Mobile Applications for Android (U. Md. College Park/Coursera)}
+\cvlistdoubleitem{The Hardware/Software Interface (U. Wash./Coursera)}{Pattern-Oriented Software Architectures: Programming Mobile Services for Android (Vanderbilt/Coursera)}
+\cvlistdoubleitem{Intro to Logic (Stanford/Coursera)}{Programming Cloud Services for Android (Vanderbilt/Coursera)}
+
+\section{Technologies}
+\cvitem{Proficient:}{Java SE, Android, Python, Git, Markdown, Linux, Windows, Vim, IntelliJ IDEA, Eclipse}
+\cvitem{Some experience:}{Ruby, HTML, CSS, Javascript, \LaTeX, OSX, C\#, Racket, SML/NJ, C, Bash, Spring, Java EE, OAuth, SQL, PHP}
 
 \section{Project}
 \cvitem{Random Sentinels}{Android app to randomly select parameters for the board game \emph{Sentinels of the Multiverse} (github.com/howardad/random-sentinels).
@@ -86,10 +93,6 @@
     \end{itemize}
   \item Maintained project and dependencies using Gradle build script.
   \end{itemize}}
-
-\section{Techonologies}
-\cvitem{Proficient}{Java, Android, ...}
-\cvitem{Some experience}{Ruby, HTML, CSS, Javascript, ...}
 
 \section{Experience}
 %\subsection{Vocational}
@@ -118,9 +121,9 @@
 \cventry{2008--present}{Member}{Kiwanis Club of Jackson, Michigan}{}{}{Service club devoted to helping the children of the world.\newline{}Served as President of the club in 2012-13, currently serving as Lt. Governor of 11 clubs.}
 
 \section{Interests}
-\cvitem{hobby 1}{Description}
-\cvitem{hobby 2}{Description}
-\cvitem{hobby 3}{Description}
+\cvitem{Astronomy}{Observing stars, planets, galaxies, nebul\ae, comets, the Moon, and other night-sky objects using a telescope, binoculars, or the unaided eye.}
+\cvitem{Camping}{In a tent, with a fire, and the more friends and family the better.}
+\cvitem{Warhammer 40k}{A tabletop strategy game that also involves painting dozens of miniatures.}
 
 %\section{Extra 1}
 %\cvlistitem{Item 1}
