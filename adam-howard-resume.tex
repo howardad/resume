@@ -19,7 +19,7 @@
 
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
-\setlength{\hintscolumnwidth}{2.5cm}                % if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
@@ -57,6 +57,36 @@
 %\cvitem{supervisors}{Supervisors}
 %\cvitem{description}{Short thesis abstract}
 
+%\section{Languages}
+%\cvitemwithcomment{Language 1}{Skill level}{Comment}
+%\cvitemwithcomment{Language 2}{Skill level}{Comment}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{University classes}
+\cvlistdoubleitem{Elementary Linear Algebra}{Programming Data Structures}
+\cvlistdoubleitem{Statistical Methods}{Algorithms \& Data Structures}
+\cvlistdoubleitem{Introduction to Programming}{Computer Organization I}
+
+\section{Massive online open courses (MOOCs)}
+\cvlistdoubleitem{Item 1}{Item 4}
+\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+\section{Project}
+\cvitem{Random Sentinels}{Android app to randomly select parameters for the board game \emph{Sentinels of the Multiverse} (github.com/howardad/random-sentinels).
+  \begin{itemize}
+  \item Leveraged Android and Java to create a modern standards-compliant interface for a wide range of Android devices;
+  \item Employed a SQLite database to track dozens of different game elements;
+  \item Used Android's built in SharedPreferences framework to remember which subset of the game elements the user wished to include in the pool;
+  \item Designed a custom launcher icon using Inkscape, an open-source vector graphics editor;
+  \item Incorporated third-party open-source libraries:
+    \begin{itemize}
+    \item Calligraphy to use custom fonts (github.com/chrisjenx/Calligraphy);
+    \item Butter Knife to increase code maintainability and decrease error-prone boilerplate (jakewharton.github.io/butterknife);
+    \end{itemize}
+  \item Maintained project and dependencies using Gradle build script.
+  \end{itemize}}
+
 \section{Experience}
 %\subsection{Vocational}
 \cventry{2007--2011}{Attorney}{Law Office of Adam E. Howard}{Jackson, Michigan}{}{Solo general law practice with a focus on real estate transactions and litigation.\newline{}}%
@@ -79,21 +109,6 @@
 %\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
 %\subsection{Miscellaneous}
 %\cventry{year--year}{Job title}{Employer}{City}{}{Description}
-
-%\section{Languages}
-%\cvitemwithcomment{Language 1}{Skill level}{Comment}
-%\cvitemwithcomment{Language 2}{Skill level}{Comment}
-%\cvitemwithcomment{Language 3}{Skill level}{Comment}
-
-\section{University classes}
-\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
-
-\section{Massive online open courses (MOOCs)}
-\cvlistdoubleitem{Item 1}{Item 4}
-\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
-\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
 
 \section{Interests}
 \cvitem{hobby 1}{Description}
