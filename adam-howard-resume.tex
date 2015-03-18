@@ -11,7 +11,7 @@
 
 
 \renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 \usepackage{microtype}
 
 % character encoding
@@ -39,6 +39,10 @@
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
+% fix light-colored name
+\usepackage{xpatch}
+\xpatchcmd{\makecvtitle}{color2!50}{color2}{}{}
+
 
 %----------------------------------------------------------------------------------
 %            content
@@ -50,7 +54,7 @@
 
 \section{Education}
 \cventry{2014--present}{M.S. Computer Science}{Eastern Michigan University}{Ypsilanti, Michigan}{\textit{4.00}}{}  % arguments 3 to 6 can be left empty
-\cventry{2003--2006}{Juris Doctor}{Michigan State University College of Law}{East Lansing, Michigan}{\textit{3.68}}{}
+\cventry{2003--2006}{Juris Doctor}{Michigan State Univ. College of Law}{East Lansing, Michigan}{\textit{3.68}}{}
 \cventry{1997--2002}{B.A. Sociology}{Michigan State University}{East Lansing, Michigan}{\textit{3.60}}{}
 
 %\section{Master thesis}
