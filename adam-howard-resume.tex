@@ -40,8 +40,8 @@
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % fix light-colored name
-\usepackage{xpatch}
-\xpatchcmd{\makecvtitle}{color2!50}{color2}{}{}
+%\usepackage{xpatch}
+%\xpatchcmd{\makecvtitle}{color2!50}{color2}{}{}
 
 
 %----------------------------------------------------------------------------------
@@ -52,11 +52,24 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
+\section{Experience}
+%\subsection{Vocational}
+\cventry{2015--present}{Junior Tester}{Nexient}{Ann Arbor, Michigan}{}{Manual and automated functional testing.%
+\begin{itemize}%
+\item Created and executed manual test scenarios for a wide variety of application functionality
+\item Customized automated regression test suite scripts to increase personal efficiency
+\item Successfully adapted to rapidly changing requirements and aggressive deadlines
+\end{itemize}}%
+\cventry{2007--2011}{Attorney}{Law Office of Adam E. Howard}{Jackson, Michigan}{}{Solo general law practice with a focus on real estate transactions and litigation.}%
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
 \section{Education}
-\cventry{Expected 2017}{M.S. Computer Science}{Eastern Michigan University}{Ypsilanti, Michigan}{\textit{4.00}}{Courses in data structures, algorithms, computer organization, linear algebra, statistics}  % arguments 3 to 6 can be left empty
+\cventry{Expected 2018}{M.S. Computer Science}{Eastern Michigan University}{Ypsilanti, Michigan}{\textit{4.00}}{Courses in data structures, algorithms, computer organization, linear algebra, statistics}  % arguments 3 to 6 can be left empty
 \cventry{2006}{Juris Doctor}{Michigan State Univ. College of Law}{E. Lansing, Michigan}{\textit{3.68}}{}
 \cventry{2002}{B.A. Sociology}{Michigan State University}{E. Lansing, Michigan}{\textit{3.60}}{}
-\cvitem{Ongoing}{Massive open online courses (MOOCs) covering programming languages, program design, logic, hardware/software interface, functional programming, Android, cloud services, and more. Details available on request.}
+\cvitem{Informal}{Massive open online courses (MOOCs) covering programming languages, program design, logic, hardware/software interface, functional programming, Android, cloud services, and more. Details available on request.}
 
 %\section{Master thesis}
 %\cvitem{title}{\emph{Title}}
@@ -69,44 +82,21 @@
 %\cvitemwithcomment{Language 3}{Skill level}{Comment}
 
 \section{Technologies}
-\cvitem{Proficient:}{Java SE, Android, Python, Git, Markdown, Linux, Windows, Vim, IntelliJ IDEA, Eclipse}
-\cvitem{Some experience:}{Ruby, HTML, CSS, Javascript, \LaTeX, OSX, C\#, Racket, SML/NJ, C, Bash, Spring, Java EE, OAuth, SQL, PHP, Gradle}
+\cvitem{Proficient:}{Java SE, Android, Python, Selenium, Git, Markdown, Linux, Windows, Vim, IntelliJ IDEA, Eclipse, SOAP UI}
+\cvitem{Some experience:}{Ruby, HTML, CSS, Javascript, \LaTeX, OSX, C\#, Racket, SML/NJ, C, Bash, Spring, Java EE, OAuth, SQL, PHP, Gradle, Maven, UFT/QTP, TestNG, JUnit}
 
 \section{Project}
-\cvitem{Random Sentinels}{Android app to randomly select parameters for the board game \emph{Sentinels of the Multiverse} (github.com/howardad/random-sentinels).
-  \begin{itemize}
-  \item Leveraged Android and Java to create a modern standards-compliant interface for a wide range of Android devices
-  \item Employed a SQLite database and SharedPreferences to track game elements and user data
-  \item Designed a custom launcher icon using vector art
-  \item Incorporated third-party open-source libraries (Butter Knife, Calligraphy)
-  \item Maintained project and dependencies using Gradle build script
-  \end{itemize}}
-
-\section{Experience}
-%\subsection{Vocational}
-\cventry{2007--2011}{Attorney}{Law Office of Adam E. Howard}{Jackson, Michigan}{}{Solo general law practice with a focus on real estate transactions and litigation.}%
-%Detailed achievements:%
-%\begin{itemize}%
-%\item Achievement 1;
-%\item Achievement 2, with sub-achievements:
-%  \begin{itemize}%
-%  \item Sub-achievement (a);
-%  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-%    \begin{itemize}
-%    \item Sub-sub-achievement i;
-%    \item Sub-sub-achievement ii;
-%    \item Sub-sub-achievement iii;
-%    \end{itemize}
-%  \item Sub-achievement (c);
-%  \end{itemize}
-%\item Achievement 3.
-%\end{itemize}}
-%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
-%\subsection{Miscellaneous}
-%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+\cvitem{Random Sentinels}{Android app to randomly select parameters for the board game \emph{Sentinels of the Multiverse} (github.com/howardad/random-sentinels).}
+%  \begin{itemize}
+%  \item Leveraged Android and Java to create a modern standards-compliant interface for a wide range of Android devices
+%  \item Employed a SQLite database and SharedPreferences to track game elements and user data
+%  \item Designed a custom launcher icon using vector art
+%  \item Incorporated third-party open-source libraries (Butter Knife, Calligraphy)
+%  \item Maintained project and dependencies using Gradle build script
+%  \end{itemize}}
 
 \section{Volunteer Experience/Interests}
-\cventry{2008--present}{Member}{Kiwanis Club of Jackson, Michigan}{}{}{Service club devoted to helping the children of the world.\\{}Served as President of the club in 2012-13, currently serving as Lt. Governor of 11 clubs.}
+\cventry{2008--present}{Member}{Kiwanis Club of Jackson, Michigan}{}{}{Service club devoted to helping the children of the world.}
 \cvitem{Hobbies}{Amateur astronomy, camping, tabletop strategy games}
 
 %\section{Extra 1}
