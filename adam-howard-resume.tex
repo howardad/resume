@@ -40,8 +40,12 @@
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % fix light-colored name
-%\usepackage{xpatch}
-%\xpatchcmd{\makecvtitle}{color2!50}{color2}{}{}
+\usepackage{etoolbox}
+\patchcmd{\makecvhead}
+	{\color{color2!50}\@firstname}
+	{\color{color2}\@firstname}
+	{}
+	{}
 
 
 %----------------------------------------------------------------------------------
